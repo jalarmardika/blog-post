@@ -1,0 +1,11 @@
+body{
+	background-color: #f4f6f9;
+}
+.btn-category{
+	border: 1px solid gray;
+	color: black;
+	border-radius: 1rem;
+}
+.text-muted{
+	font-size: 13px;
+}
