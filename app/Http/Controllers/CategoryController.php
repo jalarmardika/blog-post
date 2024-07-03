@@ -13,9 +13,8 @@ class CategoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index()
     {
-        $keyword = $request->keyword;
         $categories = Category::latest()->get();
         return view('category.index', compact('categories')); 
     }
